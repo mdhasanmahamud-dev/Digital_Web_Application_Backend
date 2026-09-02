@@ -18,7 +18,7 @@ connectDB();
 
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://digital-web-application-frontend-1-7lab.onrender.com",
     credentials: true,
   }),
 );
